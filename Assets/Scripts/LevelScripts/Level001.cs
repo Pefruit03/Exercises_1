@@ -9,7 +9,7 @@ public class Level001 : MonoBehaviour
     void Start()
     {
         RedirectToLevel.redirectToLevel = 3;
-        RedirectToLevel.nextLevel = 5;
+        RedirectToLevel.nextLevel = 4;
         StartCoroutine(FadeInOff());
     }
 

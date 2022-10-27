@@ -15,6 +15,9 @@ public class RedirectToLevel : MonoBehaviour
         {
             SceneManager.LoadScene(redirectToLevel);
         }
-        
+        if (redirectToLevel == 4)
+        {
+            SceneManager.LoadScene(redirectToLevel);
+        }
     }
 }

@@ -18,6 +18,7 @@ public class MainMenuFunction : MonoBehaviour
     public void PlayGame()
     {
         buttonPress.Play();
+        GlobalScore.currentScore = 0;
         RedirectToLevel.redirectToLevel = 3;
         SceneManager.LoadScene(2);
     }
@@ -30,12 +31,14 @@ public class MainMenuFunction : MonoBehaviour
     public void PlayCreds()
     {
         buttonPress.Play();
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(5);
     }
     public void ResetBest()
     {
+        buttonPress.Play();
         PlayerPrefs.SetInt("LevelScore", 0);
         PlayerPrefs.SetInt("LevelScore5", 0);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         bestScoreDisplay.GetComponent<Text>().text = "Best: " + bestScore;
     }
 }

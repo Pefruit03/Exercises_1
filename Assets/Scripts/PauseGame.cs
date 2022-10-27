@@ -48,7 +48,13 @@ public class PauseGame : MonoBehaviour
         Cursor.visible = false;
         gamePaused = false;
         Time.timeScale = 1;
-        SceneManager.LoadScene(2);
+        GlobalScore.currentScore -= GemSilver.numberofCoinsS * 1000;
+        GlobalScore.currentScore -= GemRed.numberofCoinsR * 200;
+        GlobalScore.currentScore -= GemGreen.numberofCoinsG * 500;
+        GemSilver.numberofCoinsS = 0;
+        GemRed.numberofCoinsR = 0;
+        GemGreen.numberofCoinsG = 0;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
     public void QuitToMenu()
     {

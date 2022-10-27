@@ -45,7 +45,10 @@ public class FinishLevel : MonoBehaviour
         yield return new WaitForSeconds(2);
         fadeOut.SetActive(true);
         yield return new WaitForSeconds(2);
-        GlobalScore.currentScore = 0;
+        GlobalScore.currentScore = totalScored;
+        GemSilver.numberofCoinsS = 0;
+        GemRed.numberofCoinsR = 0;
+        GemGreen.numberofCoinsG = 0;
         SceneManager.LoadScene(RedirectToLevel.nextLevel);
     }
 

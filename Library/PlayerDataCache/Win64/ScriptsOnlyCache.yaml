@@ -1464,4 +1464,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Level_001.unity
   - Assets/Scenes/Level_002.unity
   - Assets/Scenes/Credits.unity
-  playerPath: C:/Users/HP/Desktop/GameUnity/Exercises_1/Game/Exercises_1.exe
+  playerPath: C:/Users/HP/Desktop/GameUnity/Exercises_1/GameJumpy/Exercises_1.exe

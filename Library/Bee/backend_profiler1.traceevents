@@ -1,512 +1,649 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1666853142613830, "dur":3268, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1666853142617116, "dur":151, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1666853142617283, "dur":38, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1666853142617324, "dur":403, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1666853142617781, "dur":1147, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1666853142618928, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1666853147508784, "dur":211, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1666853147508995, "dur":27, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1666853147509022, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1666853147509029, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1666853147509048, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1666853147509055, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1666853147509074, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1666853147509081, "dur":26, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1666853147509107, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1666853147509126, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1666853147509323, "dur":5448, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1666853142618398, "dur":571, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1666853142618973, "dur":8666, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1666853142627674, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1666853142627676, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1666853142627777, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1666853142627789, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1666853142629250, "dur":4143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1666853142633397, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":1, "ts":1666853142633647, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1666853142633992, "dur":1943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":1, "ts":1666853142636022, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1666853142636226, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1666853142636236, "dur":2723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1666853142639046, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":1, "ts":1666853142639253, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1666853142639421, "dur":2275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":1, "ts":1666853142641787, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":1, "ts":1666853142641991, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1666853142642003, "dur":1886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":1, "ts":1666853142643992, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":1, "ts":1666853142644199, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1666853142644994, "dur":1711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":1, "ts":1666853142646812, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":1, "ts":1666853142647018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1666853142647027, "dur":2658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":1, "ts":1666853142649778, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":1, "ts":1666853142649958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1666853142649966, "dur":1631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":1, "ts":1666853142651683, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":1, "ts":1666853142651849, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1666853142651858, "dur":3883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":1, "ts":1666853142655841, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853142656057, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1666853142656192, "dur":184811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853142841094, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853142841173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1666853142842935, "dur":135854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853142978861, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853142978945, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1666853142978954, "dur":49931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853143028965, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853143029064, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1666853143029071, "dur":194940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853143224091, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853143224173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1666853143224182, "dur":178701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853143402964, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853143403047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1666853143403055, "dur":95398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853143498539, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853143498637, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1666853143498646, "dur":326122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853143824853, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853143824942, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1666853143824951, "dur":115189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853143940230, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853143940330, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1666853143940339, "dur":45244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853143985673, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853143985764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1666853143985774, "dur":85291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853144072101, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853144072292, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1666853144072303, "dur":89190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853144161588, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853144161699, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1666853144161711, "dur":100929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853144262724, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853144262811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1666853144262853, "dur":41396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853144304345, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853144304448, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1666853144304458, "dur":124994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853144429549, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853144429646, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1666853144429659, "dur":253262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853144683006, "dur":121194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853144804210, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1666853144804223, "dur":3540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853144807840, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853144807926, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1666853144807935, "dur":113308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853144921328, "dur":88379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853145009714, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1666853145009724, "dur":4999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853145014837, "dur":114381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853145129226, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1666853145129237, "dur":4767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853145134099, "dur":1286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853145135391, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1666853145135402, "dur":2124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853145137632, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853145137736, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1666853145137745, "dur":218425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853145356243, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853145356324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1666853145356333, "dur":247920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853145604336, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853145604418, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1666853145604428, "dur":372041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853145976610, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853145976723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1666853145976732, "dur":117837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853146094660, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853146094759, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1666853146094773, "dur":96247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853146191112, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853146191207, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1666853146191217, "dur":337131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853146528431, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853146528517, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1666853146528527, "dur":209070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853146737685, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853146737776, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1666853146737784, "dur":770719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":1, "ts":1666853147508591, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":1, "ts":1666853147508593, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853142618486, "dur":493, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853142618980, "dur":8699, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853142627679, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1666853142627934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853142657979, "dur":4167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1666853142662230, "dur":1615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1.exe" }}
-,{ "pid":12345, "tid":2, "ts":1666853142663853, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853142663862, "dur":177571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1.exe" }}
-,{ "pid":12345, "tid":2, "ts":1666853142841511, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853142841590, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853142843049, "dur":41314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853142884432, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853142884509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853142884517, "dur":133737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853143018328, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853143018438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853143018446, "dur":86681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853143105201, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853143105309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853143105317, "dur":114692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853143220086, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853143220170, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853143220179, "dur":196838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853143417098, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853143417189, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853143417197, "dur":78614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853143495891, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853143495980, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853143495989, "dur":113036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853143609110, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853143609194, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853143609203, "dur":141995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853143751333, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853143751505, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853143751515, "dur":48476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853143800071, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853143800167, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853143800176, "dur":130533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853143930794, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853143931097, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853143931107, "dur":82894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853144014092, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853144014185, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853144014196, "dur":95480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853144109765, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853144109862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853144109872, "dur":83468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853144193429, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853144193538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853144193546, "dur":220078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853144413703, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853144413789, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853144413798, "dur":114039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853144527929, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853144528018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853144528027, "dur":85601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853144613707, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853144613785, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853144613794, "dur":265964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853144879852, "dur":190626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853145070483, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853145070499, "dur":12630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853145083225, "dur":58800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853145142032, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853145142042, "dur":10309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853145152471, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853145152578, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853145152588, "dur":467872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853145620539, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853145620620, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853145620667, "dur":375263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853145996015, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853145996098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853145996106, "dur":204471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853146200664, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853146200759, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853146200806, "dur":114061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853146314955, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853146315047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853146315056, "dur":336329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853146651466, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853146651548, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853146651557, "dur":254030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":2, "ts":1666853146905668, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":2, "ts":1666853146905915, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853146907777, "dur":1886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":2, "ts":1666853146909748, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":2, "ts":1666853146909831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853146909950, "dur":2080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":2, "ts":1666853146912111, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/sharedassets5.assets" }}
-,{ "pid":12345, "tid":2, "ts":1666853146912191, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853146912198, "dur":1686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/sharedassets5.assets" }}
-,{ "pid":12345, "tid":2, "ts":1666853146913966, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/sharedassets4.assets" }}
-,{ "pid":12345, "tid":2, "ts":1666853146914046, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853146914053, "dur":1653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/sharedassets4.assets" }}
-,{ "pid":12345, "tid":2, "ts":1666853146915786, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/sharedassets3.resource" }}
-,{ "pid":12345, "tid":2, "ts":1666853146915866, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853146915873, "dur":4335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/sharedassets3.resource" }}
-,{ "pid":12345, "tid":2, "ts":1666853146920298, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/sharedassets3.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1666853146920381, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853146920388, "dur":25178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/sharedassets3.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1666853146945647, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":2, "ts":1666853146945726, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853146945733, "dur":7508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":2, "ts":1666853146953322, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":2, "ts":1666853146953401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853146953409, "dur":10684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":2, "ts":1666853146964174, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":2, "ts":1666853146964257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853146964265, "dur":5493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":2, "ts":1666853146969849, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1666853146969947, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853146969955, "dur":14456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1666853146984498, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":2, "ts":1666853146984582, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853146984589, "dur":30114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":2, "ts":1666853147014786, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1666853147014871, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853147014879, "dur":3470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1666853147018450, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":2, "ts":1666853147018610, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853147018619, "dur":20705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":2, "ts":1666853147039416, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":2, "ts":1666853147039676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853147039684, "dur":5570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":2, "ts":1666853147045350, "dur":2583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":2, "ts":1666853147047940, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853147047949, "dur":2049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":2, "ts":1666853147050096, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/level5" }}
-,{ "pid":12345, "tid":2, "ts":1666853147050249, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853147050268, "dur":1914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/level5" }}
-,{ "pid":12345, "tid":2, "ts":1666853147052266, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/level4" }}
-,{ "pid":12345, "tid":2, "ts":1666853147052343, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853147052351, "dur":12618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/level4" }}
-,{ "pid":12345, "tid":2, "ts":1666853147065089, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/level3" }}
-,{ "pid":12345, "tid":2, "ts":1666853147065187, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853147065199, "dur":2704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/level3" }}
-,{ "pid":12345, "tid":2, "ts":1666853147067994, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/level2" }}
-,{ "pid":12345, "tid":2, "ts":1666853147068080, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853147068088, "dur":1706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/level2" }}
-,{ "pid":12345, "tid":2, "ts":1666853147069887, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/level1.resS" }}
-,{ "pid":12345, "tid":2, "ts":1666853147069972, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853147069980, "dur":2276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/level1.resS" }}
-,{ "pid":12345, "tid":2, "ts":1666853147072341, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/level1" }}
-,{ "pid":12345, "tid":2, "ts":1666853147072450, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853147072461, "dur":1861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/level1" }}
-,{ "pid":12345, "tid":2, "ts":1666853147074409, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/level0" }}
-,{ "pid":12345, "tid":2, "ts":1666853147074498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853147074505, "dur":1651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/level0" }}
-,{ "pid":12345, "tid":2, "ts":1666853147076238, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":2, "ts":1666853147076319, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853147076327, "dur":1971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":2, "ts":1666853147078382, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":2, "ts":1666853147078465, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853147078472, "dur":2253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":2, "ts":1666853147080816, "dur":327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1666853147081148, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1666853147081155, "dur":32352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1666853147113592, "dur":395268, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1666853142618548, "dur":442, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1666853142618990, "dur":8674, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1666853142627674, "dur":278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":3, "ts":1666853142627959, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1666853142659250, "dur":2835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":3, "ts":1666853142662183, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":3, "ts":1666853142662390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1666853142662397, "dur":15295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":3, "ts":1666853142677778, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":3, "ts":1666853142677966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1666853142678352, "dur":162679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":3, "ts":1666853142841131, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853142841214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1666853142842998, "dur":30696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853142873758, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853142873828, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1666853142873948, "dur":154893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853143028919, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853143029012, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1666853143029020, "dur":75859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853143104956, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853143105078, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1666853143105085, "dur":101209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853143206376, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853143206461, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1666853143206469, "dur":33596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853143240143, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853143240222, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1666853143240230, "dur":65824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853143306133, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853143306233, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1666853143306242, "dur":84848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853143391177, "dur":432872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853143824055, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1666853143824066, "dur":7700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853143831841, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853143831933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1666853143831942, "dur":69754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853143901788, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853143901892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1666853143901901, "dur":71455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853143973445, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853143973535, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1666853143973548, "dur":55641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853144029277, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853144029372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1666853144029380, "dur":167388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853144196863, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853144196964, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1666853144196973, "dur":65411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853144262474, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853144262571, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1666853144262584, "dur":101533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853144364211, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853144364300, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1666853144364308, "dur":66825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853144431215, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853144431312, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1666853144431320, "dur":47786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853144479198, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853144479290, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1666853144479299, "dur":92055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853144571442, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853144571530, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1666853144571539, "dur":83431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853144655064, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853144655156, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1666853144655166, "dur":55913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853144711163, "dur":204832, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853144916001, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1666853144916010, "dur":4302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853144920425, "dur":1483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853144921914, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1666853144921924, "dur":1799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853144923807, "dur":1217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853144925030, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1666853144925041, "dur":2488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853144927607, "dur":61329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853144988987, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1666853144988998, "dur":24005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853145013099, "dur":8767, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853145021874, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1666853145021885, "dur":2762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853145024740, "dur":9290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853145034038, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1666853145034050, "dur":22734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853145056897, "dur":12758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853145069663, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1666853145069674, "dur":37214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853145106989, "dur":14355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853145121352, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1666853145121363, "dur":12205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853145133672, "dur":118925, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853145252604, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1666853145252616, "dur":2691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853145255401, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853145255494, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1666853145255503, "dur":255728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853145511312, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853145511393, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1666853145511402, "dur":583686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853146095178, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853146095269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1666853146095277, "dur":348531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853146443895, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853146443990, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1666853146444002, "dur":308360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853146752444, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853146752527, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1666853146752536, "dur":467399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":3, "ts":1666853147220030, "dur":288623, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1666853142618731, "dur":273, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1666853142619004, "dur":8674, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1666853142627679, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1666853142627932, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1666853142631361, "dur":2202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1666853142633648, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1666853142633821, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1666853142634022, "dur":1907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1666853142636048, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1666853142636246, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1666853142637257, "dur":1773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1666853142639109, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1666853142639264, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1666853142639403, "dur":2531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1666853142642020, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1666853142642198, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1666853142642206, "dur":2378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1666853142644682, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1666853142644867, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1666853142644974, "dur":1721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1666853142646805, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1666853142646993, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1666853142647001, "dur":2245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1666853142649342, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1666853142649531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1666853142649540, "dur":2178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1666853142651819, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853142652015, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1666853142652569, "dur":4398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853142657060, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853142657254, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1666853142657260, "dur":184169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853142842452, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853142842555, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1666853142843029, "dur":261163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853143104276, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853143104368, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1666853143104379, "dur":73591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853143178080, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853143178191, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1666853143178203, "dur":56136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853143234432, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853143234527, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1666853143234538, "dur":124505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853143359128, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853143359218, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1666853143359228, "dur":393544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853143752869, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853143752968, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1666853143753020, "dur":125505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853143878609, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853143878699, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1666853143878713, "dur":87198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853143965997, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853143966088, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1666853143966098, "dur":59657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853144025855, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853144025959, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1666853144025969, "dur":54021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853144080071, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853144080157, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1666853144080274, "dur":46107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853144126454, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853144126534, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1666853144126543, "dur":106917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853144233536, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853144233612, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1666853144233622, "dur":71001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853144304706, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853144304799, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1666853144304807, "dur":62009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853144366899, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853144366984, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1666853144366993, "dur":63398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853144430484, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853144430591, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1666853144430606, "dur":51894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853144482594, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853144482681, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1666853144482690, "dur":87203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853144570001, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853144570102, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1666853144570115, "dur":43640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853144613830, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853144613908, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1666853144613915, "dur":86319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853144700311, "dur":211592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853144911910, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1666853144911921, "dur":3345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853144915358, "dur":884801, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853145800170, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1666853145800180, "dur":3008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853145803269, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853145803355, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1666853145803364, "dur":369783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853146173235, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853146173333, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1666853146173342, "dur":525302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853146698740, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853146698833, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1666853146698843, "dur":123502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853146822439, "dur":240094, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/Exercises_1_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853147062540, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1666853147062550, "dur":26321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/Exercises_1_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":4, "ts":1666853147088951, "dur":419843, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1666853147518678, "dur":5976, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1666853880825356, "dur":2103, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666853880827472, "dur":632, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1666853880828134, "dur":53, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1666853880828190, "dur":269, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1666853880828497, "dur":874, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666853880829371, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666853884587160, "dur":141, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666853884587301, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666853884587322, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666853884587328, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666853884587344, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666853884587348, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666853884587360, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666853884587364, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666853884587376, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666853884587394, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666853884587473, "dur":5047, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1666853880829168, "dur":268, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853880829436, "dur":7071, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853880836507, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1666853880836611, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853880836748, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853880853418, "dur":1552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1666853880855051, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1666853880855115, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853880855173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853880855180, "dur":2118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1666853880857357, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853880857429, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853880857482, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853880857485, "dur":114082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853880971737, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853880971818, "dur":851, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853880972681, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853880972942, "dur":101309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853881074323, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853881074400, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853881074473, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853881074481, "dur":162120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853881236669, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853881236735, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853881236814, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853881236822, "dur":176324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853881413203, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853881413264, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853881413330, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853881413339, "dur":64896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853881478300, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853881478420, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853881478513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853881478520, "dur":94945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853881573540, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853881573613, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853881573706, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853881573714, "dur":103015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853881676796, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853881676869, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853881676941, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853881676949, "dur":165892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853881842913, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853881842985, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853881843063, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853881843071, "dur":121294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853881964441, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853881964503, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853881964572, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853881964578, "dur":37329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853882001980, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853882002054, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853882002137, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853882002145, "dur":87343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853882089560, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853882089635, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853882089717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853882089728, "dur":58499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853882148299, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853882148372, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853882148451, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853882148469, "dur":93579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853882242126, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853882242428, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853882242521, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853882242529, "dur":63937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853882306555, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853882306633, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853882306723, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853882306732, "dur":75137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853882381934, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853882382005, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853882382076, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853882382084, "dur":49075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853882431310, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853882431398, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853882431487, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853882431495, "dur":56277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853882487839, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853882487904, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853882487975, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853882487983, "dur":178616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853882666677, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853882666744, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853882666819, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853882666826, "dur":131315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853882798205, "dur":261840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853883060046, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853883060781, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853883060791, "dur":1538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853883062391, "dur":24662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853883087054, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853883087162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853883087169, "dur":1529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853883088763, "dur":61152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853883149916, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853883151289, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853883151299, "dur":1682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853883153045, "dur":6318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853883159364, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853883159479, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853883159496, "dur":2111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853883161680, "dur":38227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853883199908, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853883200020, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853883200028, "dur":1950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853883202039, "dur":11982, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853883214021, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853883214140, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853883214147, "dur":1666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853883215873, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853883215932, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853883216001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853883216008, "dur":376669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853883592739, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853883592800, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853883592900, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853883592907, "dur":152030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853883745002, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853883745065, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853883745135, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853883745142, "dur":321604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853884066906, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853884066973, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853884067050, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853884067058, "dur":148651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853884215782, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853884215841, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853884215929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666853884215936, "dur":283353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666853884499344, "dur":87804, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853880829066, "dur":353, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853880829422, "dur":7061, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853880836507, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1666853880836508, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853880836600, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1666853880836604, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853880836681, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853880837757, "dur":4696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1666853880842455, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1666853880842526, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853880842585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853880842674, "dur":4601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1666853880847341, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1666853880847566, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853880847626, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853880847633, "dur":1095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1666853880848801, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1666853880848870, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853880848932, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853880848942, "dur":9389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1666853880858404, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1666853880858477, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853880858538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853880858545, "dur":10169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1666853880868776, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853880868843, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853880868969, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853880869240, "dur":104149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853880973449, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853880973508, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853880973607, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853880973613, "dur":57674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853881031346, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853881031414, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853881031480, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853881031485, "dur":65892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853881097447, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853881097511, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853881097604, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853881097611, "dur":32330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853881130008, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853881130072, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853881130143, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853881130150, "dur":25441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853881155656, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853881155722, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853881155790, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853881155797, "dur":77696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853881233560, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853881233632, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853881233716, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853881233723, "dur":69870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853881303662, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853881303746, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853881303838, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853881303846, "dur":83096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853881387014, "dur":287418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853881674433, "dur":6725, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853881681168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853881681177, "dur":8463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853881689713, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853881689781, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853881689863, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853881689871, "dur":177393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853881867364, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853881867468, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853881867569, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853881867576, "dur":82073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853881949725, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853881949793, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853881949868, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853881949905, "dur":76059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853882026032, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853882026096, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853882026173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853882026181, "dur":58823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853882085078, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853882085146, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853882085221, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853882085229, "dur":109969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853882195268, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853882195380, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853882195474, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853882195482, "dur":158313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853882353883, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853882353963, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853882354055, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853882354070, "dur":90803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853882444968, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853882445057, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853882445173, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853882445184, "dur":62056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853882507313, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853882507379, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853882507455, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853882507463, "dur":141694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853882649245, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853882649378, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853882649492, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853882649500, "dur":374042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853883023617, "dur":11477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853883035096, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853883035204, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853883035212, "dur":1589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853883036868, "dur":76618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853883113487, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853883113607, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853883113616, "dur":1425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853883115103, "dur":9795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853883124899, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853883124998, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853883125007, "dur":1786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853883126862, "dur":79410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853883206273, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853883206374, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853883206382, "dur":2305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853883208750, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853883208813, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853883208883, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853883208890, "dur":183564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853883392514, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853883392574, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853883392640, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853883392647, "dur":327574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853883720283, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853883720346, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853883720418, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853883720426, "dur":64139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853883784628, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853883784689, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853883784760, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853883784768, "dur":247301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853884032130, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853884032189, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853884032262, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853884032269, "dur":186244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853884218575, "dur":140306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853884358891, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666853884358899, "dur":5062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666853884364024, "dur":223129, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853880829116, "dur":312, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853880829428, "dur":7067, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853880836507, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1666853880836605, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853880836711, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853880839537, "dur":1397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1666853880840997, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1666853880841056, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853880841128, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853880841640, "dur":1081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1666853880842796, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1666853880842866, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853880842930, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853880842936, "dur":1498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1666853880844498, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1666853880844563, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853880844633, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853880845311, "dur":1144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1666853880846519, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1666853880846599, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853880846685, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853880846771, "dur":1333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1666853880848173, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1666853880848239, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853880848291, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853880848298, "dur":1003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1666853880849377, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1666853880849443, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853880849515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853880849981, "dur":1296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1666853880851359, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1666853880851453, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853880851520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853880851527, "dur":1118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1666853880852720, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1666853880852790, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853880852855, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853880852866, "dur":4202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1666853880857136, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666853880857207, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853880857266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853880857325, "dur":114194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666853880971586, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666853880971660, "dur":950, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853880972616, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853880972766, "dur":57956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666853881030781, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666853881030850, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853881030931, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853881030939, "dur":41281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666853881072291, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666853881072374, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853881072450, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853881072457, "dur":148164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666853881220688, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666853881220759, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853881220840, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853881220877, "dur":228667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666853881449613, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666853881449686, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853881449758, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853881449793, "dur":81386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666853881531246, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666853881531318, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853881531392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853881531400, "dur":367240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666853881898716, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666853881898813, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853881898895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853881898903, "dur":64932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666853881964030, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666853881964120, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853881964207, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853881964216, "dur":61786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666853882026068, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666853882026132, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853882026198, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853882026233, "dur":121476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666853882147880, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666853882147950, "dur":181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853882148138, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853882148146, "dur":51220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666853882199460, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666853882199652, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853882199739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853882199747, "dur":57553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666853882257368, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666853882257433, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853882257504, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853882257511, "dur":54022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666853882311597, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666853882311665, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853882311771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853882311779, "dur":84669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666853882396517, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666853882396585, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853882396665, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853882396673, "dur":404104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666853882800867, "dur":205383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666853883006251, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853883006374, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853883006390, "dur":2212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666853883008667, "dur":474500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666853883483168, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853883483286, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853883483294, "dur":3311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666853883486662, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666853883486724, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853883486798, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853883486805, "dur":211175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666853883698047, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666853883698110, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853883698183, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853883698190, "dur":59941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666853883758196, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666853883758258, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853883758326, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853883758333, "dur":332390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666853884090781, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666853884090839, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853884090908, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853884090915, "dur":162249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666853884253224, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1666853884253403, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853884253489, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853884253941, "dur":1368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1666853884255370, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1666853884255445, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853884255537, "dur":1515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1666853884257118, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":3, "ts":1666853884257189, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853884257195, "dur":1163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":3, "ts":1666853884258416, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":3, "ts":1666853884258477, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853884258482, "dur":1110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":3, "ts":1666853884259660, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":3, "ts":1666853884259726, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853884259734, "dur":3523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":3, "ts":1666853884263321, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1666853884263386, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853884263392, "dur":15110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1666853884278573, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1666853884278640, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853884278646, "dur":17121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1666853884295829, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1666853884295894, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853884295901, "dur":1369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1666853884297330, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1666853884297396, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853884297402, "dur":4764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1666853884302234, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1666853884302303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853884302310, "dur":10917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1666853884313292, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1666853884313356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853884313362, "dur":1564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1666853884314988, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1666853884315079, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853884315086, "dur":1674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1666853884316836, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1666853884316907, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853884316913, "dur":1859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1666853884318839, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1666853884319026, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853884319103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853884319110, "dur":1273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1666853884320450, "dur":1045, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1666853884321495, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853884321588, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853884321594, "dur":1362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1666853884323026, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/level5" }}
+,{ "pid":12345, "tid":3, "ts":1666853884323096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853884323103, "dur":1355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/level5" }}
+,{ "pid":12345, "tid":3, "ts":1666853884324518, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/level4" }}
+,{ "pid":12345, "tid":3, "ts":1666853884324579, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853884324585, "dur":1998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/level4" }}
+,{ "pid":12345, "tid":3, "ts":1666853884326647, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1666853884326711, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853884326716, "dur":10471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1666853884337262, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1666853884337343, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853884337349, "dur":1692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1666853884339108, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1666853884339171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853884339177, "dur":1893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1666853884341147, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1666853884341245, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853884341254, "dur":1738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1666853884343061, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1666853884343131, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853884343137, "dur":1361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1666853884344558, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1666853884344624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853884344630, "dur":1566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1666853884346259, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1666853884346370, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853884346377, "dur":1516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1666853884347952, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1666853884348122, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853884348188, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666853884348193, "dur":1504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1666853884349759, "dur":237387, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853880829204, "dur":242, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853880829446, "dur":7054, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853880836507, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1666853880836601, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853880836737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853880846954, "dur":3319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1666853880850355, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1666853880850432, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853880850490, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853880850563, "dur":1250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1666853880851881, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1666853880851954, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853880852027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853880852037, "dur":1083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1666853880853188, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1666853880853255, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853880853314, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853880853320, "dur":2725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1666853880856233, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853880856426, "dur":188, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853880856623, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853880856971, "dur":5159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853880862204, "dur":973, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1.exe" }}
+,{ "pid":12345, "tid":4, "ts":1666853880863177, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853880863258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853880863263, "dur":4766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1.exe" }}
+,{ "pid":12345, "tid":4, "ts":1666853880868098, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1666853880868182, "dur":247, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853880868439, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853880869291, "dur":102063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1666853880971431, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853880971505, "dur":1070, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853880972584, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853880972770, "dur":49229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853881022057, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853881022119, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853881022180, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853881022186, "dur":79288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853881101533, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853881101598, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853881101671, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853881101679, "dur":43066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853881144813, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853881144884, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853881144958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853881144965, "dur":31208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853881176235, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853881176299, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853881176377, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853881176384, "dur":198224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853881374673, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853881374737, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853881374806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853881374814, "dur":329474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853881704357, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853881704429, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853881704618, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853881704626, "dur":155964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853881860667, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853881860746, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853881860830, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853881860838, "dur":51332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853881912242, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853881912312, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853881912398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853881912406, "dur":87367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853882000066, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853882000144, "dur":13695, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853882013849, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853882013857, "dur":119260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853882133184, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853882133257, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853882133333, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853882133341, "dur":87717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853882221128, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853882221197, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853882221279, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853882221287, "dur":76894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853882298254, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853882298447, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853882298602, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853882298610, "dur":186230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853882484905, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853882484968, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853882485039, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853882485046, "dur":52793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853882537932, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853882538013, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853882538098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853882538105, "dur":30332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853882568506, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853882568576, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853882568657, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853882568665, "dur":119886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853882688631, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853882688701, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853882688819, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853882688827, "dur":64699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853882753599, "dur":101380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853882854980, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853882855090, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853882855106, "dur":2771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853882857938, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853882857996, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853882858071, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853882858079, "dur":99272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853882957431, "dur":189341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853883146773, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853883146915, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853883146923, "dur":1769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853883148760, "dur":37175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853883185936, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853883186047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853883186056, "dur":1577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853883187697, "dur":1039, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853883188737, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853883188840, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853883188847, "dur":1327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853883190235, "dur":43985, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853883234221, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853883234358, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853883234367, "dur":1271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853883235695, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853883235754, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853883235818, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853883235824, "dur":123498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853883359385, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853883359449, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853883359520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853883359527, "dur":190198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853883549784, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853883549841, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853883549908, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853883549915, "dur":151704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853883701680, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853883701750, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853883701822, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853883701829, "dur":139912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853883841807, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853883841865, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853883841935, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853883841942, "dur":75445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853883917455, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853883917517, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853883917593, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853883917600, "dur":204292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853884121953, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853884122010, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853884122078, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853884122085, "dur":59369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853884181515, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles GameJumpy/Exercises_1_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853884181572, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853884181641, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666853884181647, "dur":405427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameJumpy/Exercises_1_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666853884587120, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1666853884587122, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666853884595350, "dur":3721, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
